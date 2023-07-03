@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  
+  
+}
+.headerleft{
+  display: flex;
+  flex: 1;
+  align-items: start;
+  padding: 20px;
+}
+.headerright{
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  align-content: end;
+  justify-content: end;
+}
+.hr1{
+  margin-left: auto;
+}
+.hr4,.hr3,.hr2,.hr5{
+  margin-left: 10px;
+
+}
+.mainpage{
+  margin-top: 20px;
+  display: flex;
+  padding: 20px;
+}
+.mp-left{
+  height: 150px;
+  width: 150px;
+  flex: 1;
+  padding: 20px;
+}
+.mp-right{
+  flex: 1;
+  padding: 20px;
+}
